@@ -1,0 +1,90 @@
+.register {
+    width: 100vw;
+    height: calc(100vh - 50px);
+    background-color: #f0f2f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.registerWrapper {
+    width: 50%;
+    height: 70%;
+    display: flex;
+}
+.registerLeft, .registerRight {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.registerLogo{
+    font-size: 50px;
+    font-weight: 800;
+    color: #1775ee;
+    margin-bottom: 10px;
+}
+
+.registerDesc{
+    font-size: 20px;
+}
+.registerFormContainer{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.registerForm{
+    height: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.registerInputContainer{
+    display: flex;
+    width: 100%;
+}
+.registerInput{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    font-size: 18px;
+    padding-left: 20px;
+}
+.registerInput:focus-visible{
+    outline: #1775ee auto 1px;
+}
+
+.registerButton{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #1775ee;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.registerButton:hover{
+    background-color: #2471d4;
+}
+.registerForgotPassword{
+    color: #1775ee;
+}
+.registerRegisterContainer{
+    background-color: #ffffff;
+    border-radius: 0px 0px 10px 10px;
+    border-top: #c6dfff solid 1px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.registerRegisterContainer>span{
+    margin-right: 10px;
+}
