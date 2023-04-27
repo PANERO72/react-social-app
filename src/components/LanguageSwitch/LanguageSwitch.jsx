@@ -34,21 +34,21 @@ const LanguageSwitch = () => {
         </header>
       </div>
 
-    // <div className="LanguageSwitch">
-    //     <header className="LanguageSwitch-header">
-    //       <div className="LanguageContainer">
-    //         <Dropdown icon='globe' text={t('slecteLanguage')}>
-    //           <Dropdown.Menu>
-    //             <Dropdown.Item flag='' className="flag-icon" text={t('languageCat')} onClick={() => changeLanguage('ca')}></Dropdown.Item>
-    //             <Dropdown.Item flag='gb' text={t('languageEng')} onClick={() => changeLanguage('en')}></Dropdown.Item>
-    //             <Dropdown.Item flag='de' text={t('languageDen')} onClick={() => changeLanguage('de')}></Dropdown.Item>
-    //             <Dropdown.Item flag='es' text={t('languageEsp')} onClick={() => changeLanguage('es')}></Dropdown.Item>
-    //           </Dropdown.Menu>
-    //         </Dropdown>
-    //       </div>
-    //     </header>
-    // </div>
-  )
+    /*<div className="LanguageSwitch">
+        <header className="LanguageSwitch-header">
+          <div className="LanguageContainer">
+            <Dropdown icon='globe' text={t('slecteLanguage')}>
+              <Dropdown.Menu>
+                <Dropdown.Item flag='' className="flag-icon" text={t('languageCat')} onClick={() => changeLanguage('ca')}></Dropdown.Item>
+                <Dropdown.Item flag='gb' text={t('languageEng')} onClick={() => changeLanguage('en')}></Dropdown.Item>
+                <Dropdown.Item flag='de' text={t('languageDen')} onClick={() => changeLanguage('de')}></Dropdown.Item>
+                <Dropdown.Item flag='es' text={t('languageEsp')} onClick={() => changeLanguage('es')}></Dropdown.Item>
+              </Dropdown.Menu>
+            </Dropdown>
+          </div>
+        </header>
+    </div>*/
+  );
 }
 
 export default LanguageSwitch;
